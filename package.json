@@ -4,7 +4,9 @@
   "description": "Stab for code retreat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint src && mocha -w --require babel-register ./src/**.spec.js",
+    "start:watch": "watch 'npm run start'",
+    "start": "babel-node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/evilj0e/code-retreat-stub/issues"
   },
-  "homepage": "https://github.com/evilj0e/code-retreat-stub#readme"
+  "homepage": "https://github.com/evilj0e/code-retreat-stub#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "eslint-config-xo": "^0.18.2",
+    "mocha": "^3.4.2",
+    "watch": "^1.0.2"
+  }
 }

@@ -1,0 +1,10 @@
+{
+    "extends": ["xo/esnext"],
+    "rules": {
+        "indent": [1, 4]
+    },
+    "globals": {
+        "it": true,
+        "describe": true
+    }
+}
