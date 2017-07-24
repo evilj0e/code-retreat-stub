@@ -1,0 +1,1 @@
+Stub for Code Retreat in Javascript

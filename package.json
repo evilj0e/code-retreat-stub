@@ -1,0 +1,19 @@
+{
+  "name": "code-retreat-stub",
+  "version": "1.0.0",
+  "description": "Stab for code retreat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilj0e/code-retreat-stub.git"
+  },
+  "author": "Anton Konev <info@antonkonev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evilj0e/code-retreat-stub/issues"
+  },
+  "homepage": "https://github.com/evilj0e/code-retreat-stub#readme"
+}
